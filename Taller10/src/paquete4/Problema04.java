@@ -25,7 +25,7 @@ public class Problema04 {
                         i,
                         j);
                 valor = entrada.nextDouble();
-                if (valor >= 1000 && valor <= 1199) {
+                if (valor > 1000 && valor < 1199) {
                     datos[i][j] = valor;
                 } else {
                     datos[i][j] = 10;
